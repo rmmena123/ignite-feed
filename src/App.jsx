@@ -1,6 +1,11 @@
-function App() {
+import { Header } from "./components/Header"
+
+export function App() {
   return (
-    <h1>Hello World!</h1>    
+    <div>
+      <Header></Header>
+      <h1>Hello World!</h1> 
+    </div>
   )
 }
 
